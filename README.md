@@ -1,4 +1,4 @@
-# Rust Starter Template
+# Rust Starter Template Copy from [tyr-rust-bootcamp/template](https://github.com/tyr-rust-bootcamp/template)
 
 ## 环境设置
 
@@ -72,6 +72,8 @@ git cliff 是一个生成 changelog 的工具。
 
 ```bash
 cargo install git-cliff
+
+git-cliff --config cliff.toml > CHANGELOG.md
 ```
 
 ### 安装 cargo nextest
